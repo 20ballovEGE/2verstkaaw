@@ -1,0 +1,32 @@
+.h-career-text{
+    font-size: 4rem;
+    font-family: $GilRe;
+}
+.p-career-text{
+    font-size: 1.5rem;
+    font-family: $GilRe;
+}
+.border-col{
+    border: 1px solid #DFDDDD;
+    aspect-ratio: 1/1;
+}
+.h2-career{
+    font-family: $GilRe;
+    font-size: 3rem;
+}
+.p-career1 {
+    font-size: 1.5rem;
+    font-family: $GilSeB;
+    margin: 0;
+}
+.p-career2 {
+    font-size: 1rem;
+    font-family: $GilRe;
+    color: #5F5F5F;
+    margin: 0;
+}
+@media screen and (max-width: 576px) {
+    .p-career1 {
+        font-size: 2rem;
+    }
+}

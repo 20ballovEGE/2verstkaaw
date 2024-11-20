@@ -1,0 +1,70 @@
+.first-p-om{
+    font-family: $GilRe;
+    font-size: 6rem;
+}
+.second-p-om{
+    font-family: $GilRe;
+    font-size: 1.6rem;
+}
+.our1-mission-img{
+    display: unset;
+}
+.our1-mission-img,.our2-mission-img,.our3-mission-img,.our4-mission-img{
+    width: 100%;
+    height: 100%;
+}
+.our2-mission-img,.our3-mission-img,.our4-mission-img{
+    display: none;
+}
+.first-p-uom{
+    font-size: 2rem;
+    font-family: $GilRe;
+}
+.second-p-uom{
+    font-size: 1.22rem;
+    font-family: $GilRe;
+}
+@media screen and (max-width:1700px){
+    .our1-mission-img{
+        display: block;
+    }
+    .our2-mission-img,.our3-mission-img,.our4-mission-img{
+        display: none;
+    }
+}
+@media screen and (max-width:1360px){
+    .our2-mission-img{
+        display: block;
+    }
+    .our1-mission-img,.our3-mission-img,.our4-mission-img{
+        display: none;
+    }
+}
+@media screen and (max-width:760px){
+    .our3-mission-img{
+        display: block;
+    }
+    .our1-mission-img,.our2-mission-img,.our4-mission-img{
+        display: none;
+    }
+}
+@media screen and (max-width:560px){
+    .our4-mission-img{
+        display: block;
+    }
+    .our1-mission-img,.our2-mission-img,.our3-mission-img{
+        display: none;
+    }
+    .first-p-om{
+        font-size: 3rem;
+    }
+    .second-p-om{
+        font-size: 1rem;
+    }
+    .first-p-uom{
+        font-size: 2rem;
+    }
+    .second-p-uom{
+        font-size: 1rem;
+    }
+}

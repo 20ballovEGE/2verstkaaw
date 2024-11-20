@@ -1,0 +1,83 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    // outline: 1px solid green !important;
+}
+
+body{
+    background-color: white;
+    color: black;
+}
+
+html{
+    overflow-x: hidden;
+    
+    -ms-overflow-style: none;  /* IE и Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+@mixin base_padding{
+    padding-left: clamp(12px, 4vw ,50px);
+    padding-right: clamp(12px, 4vw ,50px);
+}
+
+.wrapper {
+    @include base_padding
+}
+
+@media screen and (min-width: 576px) {
+    html {
+        font-size: 11px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    html {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    html {
+        font-size: 15px;
+    }
+}
+
+html::-webkit-scrollbar { /* для Chrome, Safari и Opera */
+    display: none;
+}
+
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(/fonts/Gilroy-Regular.ttf);
+}
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(/fonts/Gilroy-Bold.ttf);
+}
+@font-face {
+    font-family: Gilroy-Semibold;
+    src: url(/fonts/Gilroy-Semibold.ttf);
+}
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url(/fonts/Gilroy-Medium.ttf);
+}
+
+$GilMe: Gilroy-Medium;
+$GilSeB: Gilroy-Semibold;
+$GilRe: Gilroy-Regular;
+$GilBo: Gilroy-Bold;

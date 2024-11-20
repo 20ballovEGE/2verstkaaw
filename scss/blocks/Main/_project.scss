@@ -1,0 +1,72 @@
+.project-text-3{
+    font-size: 1.3rem;
+    font-family: $GilRe;
+}
+.project-text-2{
+    font-size: 1rem;
+    font-family: $GilMe;
+}
+.project-text{
+    font-size: 4rem;
+    font-family: $GilRe;
+}
+.main-projects{
+    border-top: 2px solid #DFDDDD;
+    border-bottom: 2px solid #DFDDDD;
+}
+.more-button{
+    @include button;
+}
+.View-more-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-family: $GilRe;
+    font-size: 1rem;
+    color: #21468D;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    border: 1px solid #21468D;
+}
+.prism-business{
+    font-family: $GilMe;
+    font-size: 3rem;
+}
+.project-pad{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+@media screen and (max-width: 760px) {
+    .project-text-3{
+        font-size: 1.6rem;
+    }
+    .project-text-2{
+        font-size: 1rem;
+    }
+    .project-text{
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width: 760px) {
+    .prism-business{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 576px) {
+    .project-text-3{
+        font-size: 1rem;
+    }
+    .project-text-2{
+        font-size: 1rem;
+    }
+    .project-text{
+        font-size: 2rem;
+    }
+    .prism-business{
+        font-size: 1rem;
+        padding-bottom: 2rem;
+    }
+}

@@ -1,0 +1,38 @@
+.registration{
+    width: 100vw;
+    height: 85vh;
+    gap: 2rem;
+}
+
+.reg-main-text{
+    font-family: $GilRe;
+    font-size: 4rem;
+}
+.reg-sec-text{
+    font-family: $GilRe;
+    font-size: 1.5rem;
+}
+.form-main{
+    width: clamp(350px, 50vw,900px);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-button{
+    width: 100%;
+    @include button;
+    border-radius: 20px;
+}
+@media screen and (max-width: 576px) {
+    .registration{
+        gap: 1rem;
+        height: 100vh;
+    }
+    .reg-main-text{
+        font-size: 2rem;
+    }
+    .reg-sec-text{
+        font-size: 1rem;
+    }
+}
